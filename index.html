@@ -3,30 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kamanubyo2026 | Çok Yakında</title>
-    <style>
-        body { 
-            background-color: #0b1f3b; 
-            color: #ffffff; 
-            display: flex; 
-            flex-direction: column;
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif; 
-            text-align: center; 
-        }
-        h1 { color: #f39c12; font-size: 3rem; margin-bottom: 10px; }
-        p { font-size: 1.2rem; max-width: 600px; padding: 0 20px; }
-        .spinner { margin-top: 20px; font-size: 2rem; animation: spin 2s linear infinite; }
-        @keyframes spin { 100% { transform: rotate(360deg); } }
-    </style>
+    <title>kamanubyo2026 | Kaman Uygulamalı Bilimler Yüksekokulu Portalı</title>
+    <meta name="description" content="kamanubyo2026 projesi kapsamında Kırşehir Ahi Evran Üniversitesi Kaman UBYO akademik kadrosu, gerçek bölümler ve öğrenci imkanları.">
+    <meta name="keywords" content="kamanubyo2026, Kaman UBYO, Ahi Evran Üniversitesi, YBS, Gastronomi, Bilişim Sistemleri">
+    
+    <link rel="icon" href="images/kamanubyo2026-logo.png" type="image/png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="proje.css">
 </head>
 <body>
-    <h1>kamanubyo2026</h1>
-    <p>Kırşehir Ahi Evran Üniversitesi Kaman UBYO akademik vizyon projesi çok yakında yayında olacak.</p>
-    <p><strong>YBS Öğrencileri Kodluyor...</strong></p>
-    <div class="spinner">⚙️</div>
+
+    <header class="ust-bilgi">
+        <div class="konteyner header-flex">
+            <a href="index.html" class="logo-alani">
+                <img src="images/kamanubyo2026-logo.png" alt="kamanubyo2026 Logo Kaman UBYO" class="site-logo">
+                <span class="logo-metin"><strong>kamanubyo2026</strong></span>
+            </a>
+            
+            <input type="checkbox" id="menu-ac" class="menu-gizli">
+            <label for="menu-ac" class="hamburger-ikon">&#9776;</label>
+            
+            <nav class="ana-menu">
+                <ul style="white-space: nowrap;">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="#tarihce">Kurumsal</a></li>
+                    <li><a href="#bolumler">Bölümler</a></li>
+                    <li><a href="#akademik">Akademik</a></li>
+                    <li><a href="#kadro">Kadro</a></li>
+                    <li><a href="#sss">S.S.S.</a></li>
+                    <li><a href="ybs-gelecek.html">YBS Gelecek</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-alan" style="background-image: url('images/kamanubyo2026-kampus-1.jpg'); background-position: center bottom; background-size: cover; background-repeat: no-repeat; min-height: 450px;">
+        <div class="hero-katman">
+            <div class="konteyner">
+                <h2>Kırşehir Ahi Evran Üniversitesi <br> Kaman Uygulamalı Bilimler Yüksekokulu</h2>
+                <p><strong>kamanubyo2026</strong> vizyonu ile geleceğin bilişimcilerini, yöneticilerini ve gastronomi uzmanlarını yetiştiriyoruz.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="konteyner">
+        
+        <section id="tarihce" class="seo-makale">
+            <div class="makale-baslik">Kısa Tarihçe, Misyon ve Vizyon</div>
+            <p>Kırşehir Ahi Evran Üniversitesi'nin parlayan yıldızı olan Kaman Uygulamalı Bilimler Yüksekokulumuz, <strong>kamanubyo2026</strong> hedefleri doğrultusunda nitelikli insan gücü yetiştirmek amacıyla Kaman ilçesinde hizmet vermektedir.</p>
+
+            <div class="ozellik-kutulari">
+                <div class="kutu vizyon-kutu">
+                    <h3>🎯 Misyonumuz</h3>
+                    <p>Etik değerlere bağlı, <strong>kamanubyo2026</strong> standartlarında teknoloji, medya ve hizmet üreten bireyler yetiştirmek.</p>
+                </div>
+                <div class="kutu vizyon-kutu">
+                    <h3>🚀 Vizyonumuz</h3>
+                    <p>Uygulamalı bilimlerde Türkiye'nin öncü ve lider yüksekokulu olmak.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="bolumler" class="seo-makale bg-gri">
+            <div class="makale-baslik">Aktif Bölümlerimiz</div>
+            <p>Okulumuzda, <strong>kamanubyo2026</strong> vizyonuna uygun olarak tamamen günümüz sektörlerinin ihtiyaç duyduğu, uygulamaya dayalı 4 ana bölüm bulunmaktadır:</p>
+            
+            <img src="images/kamanubyo2026-bolumler.jpg" alt="kamanubyo2026 Öğrenci Etkinlikleri ve Laboratuvarlar" class="metin-ici-gorsel">
+
+            <div class="grid-3">
+                <div class="mini-kutu">
+                    <h4>💻 Yönetim Bilişim Sistemleri (YBS)</h4>
+                    <p>Yazılım ve işletme bilimlerinin birleştiği nokta.</p>
+                </div>
+                <div class="mini-kutu">
+                    <h4>🖥️ Bilişim Sistemleri ve Teknolojileri</h4>
+                    <p>Geleceğin ağ, siber güvenlik ve sistem uzmanları için.</p>
+                </div>
+                <div class="mini-kutu">
+                    <h4>👨‍🍳 Gastronomi ve Mutfak Sanatları</h4>
+                    <p>Uygulamalı mutfaklarda dünya standartlarında eğitim.</p>
+                </div>
+                <div class="mini-kutu">
+                    <h4>🎥 Yeni Medya ve İletişim</h4>
+                    <p>Dijital çağın modern habercileri ve iletişim uzmanları.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="akademik" class="seo-makale">
+            <div class="makale-baslik">Öğrenci İşleri ve Akademik Bilgiler</div>
+            <p><strong>kamanubyo2026</strong> öğrencileri için güncel eğitim-öğretim planlamaları, ders programları ve akademik takvim detayları aşağıda yer almaktadır.</p>
+            
+            <div class="ozellik-kutulari">
+                <div class="kutu" style="text-align: center;">
+                    <h3 style="color: var(--ana-renk);">📅 Akademik Takvim</h3>
+                    <img src="images/kamanubyo2026-akademik-takvim.png" alt="kamanubyo2026 Akademik Takvim" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;">
+                </div>
+                <div class="kutu" style="text-align: center;">
+                    <h3 style="color: var(--ana-renk);">📚 Ders Programı</h3>
+                    <img src="images/kamanubyo2026-ders-program.png" alt="kamanubyo2026 Ders Programı" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 15px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="galeri" class="seo-makale bg-gri">
+            <div class="makale-baslik"><strong>kamanubyo2026</strong> Objektifinden Kampüsümüz</div>
+            <div class="gelismis-galeri" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <figure class="foto-kart">
+                    <img src="images/kamanubyo2026-kampus-1.jpg" alt="kamanubyo2026 Kampüs Ana Bina">
+                    <figcaption style="padding: 15px; text-align: left; background: white; border-radius: 0 0 10px 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                        <h4 style="color: var(--ana-renk); margin-bottom: 5px;">kamanubyo2026 Ana Bina</h4>
+                        <p style="font-size: 0.9rem; color: #555;">Yüksekokulumuzun modern mimariye sahip ana idari ve eğitim binası.</p>
+                    </figcaption>
+                </figure>
+                <figure class="foto-kart">
+                    <img src="images/kamanubyo2026-kampus-2.jpg" alt="kamanubyo2026 Derslikler">
+                    <figcaption style="padding: 15px; text-align: left; background: white; border-radius: 0 0 10px 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                        <h4 style="color: var(--ana-renk); margin-bottom: 5px;">kamanubyo2026 Derslikler</h4>
+                        <p style="font-size: 0.9rem; color: #555;">Geniş ve ferah dersliklerimizde öğrencilerimize konforlu bir eğitim ortamı sunuyoruz.</p>
+                    </figcaption>
+                </figure>
+                <figure class="foto-kart">
+                    <img src="images/kamanubyo2026-kampus-6.png" alt="kamanubyo2026 Kampüs Bahçesi">
+                    <figcaption style="padding: 15px; text-align: left; background: white; border-radius: 0 0 10px 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                        <h4 style="color: var(--ana-renk); margin-bottom: 5px;">kamanubyo2026 Kampüs Bahçesi</h4>
+                        <p style="font-size: 0.9rem; color: #555;">Yeşillikler içindeki bahçemiz, öğrencilerimizin dinlenme ve sosyal alanıdır.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="kadro" class="seo-makale">
+            <div class="makale-baslik">Değerli Akademik Kadromuz</div>
+            <p>Kaman UBYO'da eğitim veren, alanında uzman hocalarımızla <strong>kamanubyo2026</strong> projelerine imza atıyoruz. <em>(Güncel Üniversite Verisidir)</em></p>
+            
+            <ul class="bolum-liste" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <li><span>👨‍💼</span> <strong>İsa Bahat</strong> - Müdür</li>
+                <li><span>👨‍🏫</span> <strong>Doç. Dr. Metin IŞIK</strong> - Yönetim Bilişim Sistemleri</li>
+                <li><span>👨‍🏫</span> <strong>Doç. Dr. Fatih YAMAN</strong> - Bilişim Sistemleri ve Teknolojileri</li>
+                <li><span>👨‍🏫</span> <strong>Doç. Dr. Yener OĞAN</strong> - Gastronomi ve Mutfak Sanatları</li>
+                <li><span>👩‍🏫</span> <strong>Doç. Dr. Ela OĞAN</strong> - Yönetim Bilişim Sistemleri</li>
+                <li><span>👩‍🏫</span> <strong>Dr. Öğr. Üyesi Nihal Dulkadir YAMAN</strong> - Yönetim Bilişim Sistemleri</li>
+                <li><span>👨‍🏫</span> <strong>Dr. Öğr. Üyesi Kadir Can BURÇAK</strong> - Bilişim Sistemleri ve Teknolojileri</li>
+                <li><span>👨‍🏫</span> <strong>Dr. Öğr. Üyesi İrfan AYHAN</strong> - Yönetim Bilişim Sistemleri</li>
+                <li><span>👩‍🏫</span> <strong>Dr. Öğr. Üyesi Gizem Şebnem BEYDOĞAN</strong> - Gastronomi ve Mutfak Sanatları</li>
+                <li><span>👨‍🏫</span> <strong>Dr. Öğr. Üyesi Muzaffer Musab YILMAZ</strong> - Medya ve İletişim</li>
+                <li><span>👨‍🏫</span> <strong>Dr. Öğr. Üyesi Ahmet Emin BÜLBÜL</strong> - Medya ve İletişim</li>
+                <li><span>👩‍🏫</span> <strong>Öğr. Gör. Ecem AKAY</strong> - Gastronomi ve Mutfak Sanatları</li>
+                <li><span>👩‍🏫</span> <strong>Ar. Gör. Hatice Kübra ÇİÇEK</strong> - Yönetim Bilişim Sistemleri</li>
+            </ul>
+        </section>
+
+        <section id="sss" class="seo-makale bg-gradient">
+            <div class="makale-baslik" style="color:var(--ana-renk);">En Çok Sorulan Sorular (S.S.S.)</div>
+            <p><strong>kamanubyo2026</strong> projesi ve okulumuz hakkında arama motorlarında en çok merak edilen soruların gerçek ve güncel cevaplarını sizler için derledik.</p>
+            
+            <div class="sss-kutusu">
+                <h3 class="sss-soru">❓ kamanubyo2026 nerdedir?</h3>
+                <p class="sss-cevap"><strong>kamanubyo2026</strong> projesinin yürütüldüğü Kırşehir Ahi Evran Üniversitesi'ne bağlı Uygulamalı Bilimler Yüksekokulumuz, açık adres olarak <em>Hacıpınar Mah. Şehit Uzm. Çvş. Bahtiyar Şimşek Cad. No: 147 Kaman / Kırşehir</em> konumunda yer almaktadır.</p>
+            </div>
+
+            <div class="sss-kutusu">
+                <h3 class="sss-soru">❓ kamanubyo2026 ne?</h3>
+                <p class="sss-cevap"><strong>kamanubyo2026</strong>; Kaman Uygulamalı Bilimler Yüksekokulu (KUBYO) öğrencilerinin dijital dönüşüm, yazılım ve arama motoru optimizasyonu (SEO) yeteneklerini uygulamalı olarak sergiledikleri resmi bir akademik vizyon ve web projesidir.</p>
+            </div>
+
+            <div class="sss-kutusu">
+                <h3 class="sss-soru">❓ kamanubyo2026 yerleştirme puanı?</h3>
+                <p class="sss-cevap">Kaman UBYO'nun taban puanları her yıl YKS sonuçlarına göre güncellenmektedir. Örneğin okulumuzun en çok tercih edilen <strong>Yönetim Bilişim Sistemleri (YBS)</strong> bölümü, Eşit Ağırlık (EA) puan türüyle öğrenci almakta olup son açıklanan YÖK yerleştirme verilerine göre taban puanı <strong>313.29</strong> seviyelerindedir.</p>
+            </div>
+
+            <div class="sss-kutusu">
+                <h3 class="sss-soru">❓ kamanubyo2026 hangi şehirdedir?</h3>
+                <p class="sss-cevap">Bu değerli eğitim kurumu ve <strong>kamanubyo2026</strong> vizyonunun merkezi olan Kaman Uygulamalı Bilimler Yüksekokulu, Ahilik kültürünün başkenti olan <strong>Kırşehir</strong> şehrimizde bulunmaktadır.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="alt-bilgi" id="iletisim">
+        <div class="konteyner footer-grid">
+            <div class="footer-sutun">
+                <h3>Hakkımızda</h3>
+                <p><strong>kamanubyo2026</strong> vizyonuyla Kırşehir Kaman'da teknoloji, bilim ve yeniliği harmanlayan, öğrencileri geleceğe hazırlayan yeni nesil üniversite portalı.</p>
+            </div>
+            <div class="footer-sutun">
+                <h3>Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="ybs-gelecek.html">YBS Gelecek Beklentileri</a></li>
+                    <li><a href="#sss">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#kadro">Akademik Kadro</a></li>
+                </ul>
+            </div>
+            <div class="footer-sutun">
+                <h3>İletişim & Sosyal Medya</h3>
+                <p>📍 Hacıpınar Mah. No: 147 Kaman/Kırşehir</p>
+                <p>📞 +90 386 280 54 10</p>
+                <p>✉️ kamanubyo@ahievran.edu.tr</p>
+                <div class="sosyal-aglar">
+                    <a href="https://instagram.com/kamanubyo2026" target="_blank" class="sosyal-buton instagram"><i class="fab fa-instagram"></i> @kamanubyo2026</a>
+                    <a href="https://youtube.com/@kamanubyo2026" target="_blank" class="sosyal-buton youtube"><i class="fab fa-youtube"></i> kamanubyo2026</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-alt">
+            <p>© 2026 Kırşehir Ahi Evran Üniversitesi Kaman UBYO | Bir <strong>kamanubyo2026</strong> Akademik Projesidir.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function(e) {
+            if(e.keyCode == 123) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; }
+        }
+    </script>
 </body>
 </html>
